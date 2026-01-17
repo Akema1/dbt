@@ -15,4 +15,3 @@ sources:
       - name: customers
         freshness: null       
       - name: orders        
-      - name: payment
