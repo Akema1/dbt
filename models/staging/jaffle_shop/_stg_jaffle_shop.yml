@@ -16,11 +16,7 @@ models:
           - unique
           - not_null
       - name: order_status
-<<<<<<< HEAD
         description: "{{ doc('order_status') }}"
-=======
-        description: "{{ doc('order_status) }}"
->>>>>>> 093af5f971d2f047a73fca9ab23ed2337b8c2906
         data_tests:
           - accepted_values:
               values:
