@@ -3,18 +3,6 @@ sources:
     database: raw
     schema: jaffle_shop
     description: A clone of a postgres application database 
-<<<<<<< HEAD
-=======
-    config:
-          freshness:
-            warn_after:
-              count: 12
-              period: hour
-            error_after:
-              count: 1
-              period: day
-          loaded_at_field: _etl_loaded_at
->>>>>>> 093af5f971d2f047a73fca9ab23ed2337b8c2906
     tables:
       - name: customers
         description: Raw customer data
@@ -27,7 +15,6 @@ sources:
              - not_null
       - name: orders
         description: Raw orders data
-<<<<<<< HEAD
         config:
           freshness:
             warn_after:
@@ -37,8 +24,6 @@ sources:
               count: 100
               period: day
           loaded_at_field: _etl_loaded_at
-=======
->>>>>>> 093af5f971d2f047a73fca9ab23ed2337b8c2906
         columns:
           - name: id
             description: Primary key for the orders table
