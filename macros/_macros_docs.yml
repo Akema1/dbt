@@ -1,0 +1,7 @@
+macros:
+  - name: cents_to_dollars
+    description: a macro that converts dollars to cents and rounds to the input decimal places, or 2 as default
+    arguments:
+      - name: column_name
+        type: string
+        description: the name of the column you want to convert inside quotes
